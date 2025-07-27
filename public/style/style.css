@@ -1,0 +1,113 @@
+:root, html, body, #root, main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Jupiter Crash BRK';
+    background-color: #484234;
+    color: #221E19;
+}
+
+a {
+    color: #221E19;
+}
+
+a:hover {
+    color: #4C1E31;
+}
+
+#header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    background-color: #695127;
+    border-bottom: 4px ridge #695127;
+    margin-bottom: 2.5rem;
+}
+
+#logo {
+    height: 100%;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+#hamburger {
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+#carousel-outer {
+    width: 95%;
+    height: 35vh;
+    min-height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F341A;
+    border: 4px ridge #695127;
+    padding: 1rem;
+}
+
+#carousel {
+    width: 100%;
+    height: 90%;
+    min-height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#carousel-left, #carousel-center, #carousel-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carousel-image {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 80%;
+    max-width: 100%;
+    border: 4px ridge #695127;
+}
+
+#carousel-center {
+    position: absolute;
+    transform: scale(120%);
+    justify-content: center;
+}
+
+#carousel-right {
+    justify-content: flex-end;
+}
+
+#carousel-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#carousel-nav-left, #carousel-nav-right {
+    padding: 0.5rem;
+}
+
+#carousel-nav-right .carousel-arrow {
+    transform: rotate(180deg);
+}
+
+.page {
+    background-color: #CCBBA5;
+}
