@@ -1,0 +1,971 @@
+[
+    {
+        "features": [
+            "Implemented Lowscope's RPG Farming Kit"
+        ],
+        "date": "January 1, 2025"
+    },
+    {
+        "features": [
+            "Sell items"
+        ],
+        "date": "January 8, 2025"
+    },
+    {
+        "features": [
+            "Crafting System"
+        ],
+        "content": [
+            "Tilesets",
+            "UI elements"
+        ]
+    },
+    {
+        "date": "January 13, 2025",
+        "features": [
+            "Color options in character creator"
+        ],
+        "content": [
+            "Walking sprites",
+            "Character customization options"
+        ]
+    },
+    {
+        "date": "January 14, 2025",
+        "features": [
+            "Crafting queue display",
+            "Game to player messaging",
+            "Tooltips"
+        ],
+        "content": [
+            "UI elements"
+        ]
+    },
+    {
+        "date": "January 15, 2025",
+        "features": [
+            "Tame Creatures"
+        ],
+        "content": [
+            "Creature: Peacock"
+        ]
+    },
+    {
+        "date": "January 18, 2025",
+        "features": [
+            "Tool animations"
+        ],
+        "issues": [
+            "peacock animation controller does not compensate for spritesheet complexity"
+        ]
+    },
+    {
+        "date": "January 20, 2025",
+        "features": [
+            "Secondary drops for Crops",
+            "Hostile Creatures"
+        ],
+        "content": [
+            "Rusty Tools"
+        ],
+        "issues": [
+            "crops do not track date correctly when map reloads"
+        ]
+    },
+    {
+        "date": "January 22, 2025",
+        "features": [
+            "Non-Player Characters",
+            "Seeds drop from Destructibles",
+            "Affection tab in pauze menu displays NPCs"
+        ],
+        "content": [
+            "Creature: Bunny",
+            "Character: Viryn"
+        ]
+    },
+    {
+        "date": "January 25, 2025",
+        "features": [
+            "Character gifting"
+        ]
+    },
+    {
+        "date": "January 29, 2025",
+        "features": [
+            "Character clothing separated from character body"
+        ],
+        "content": [
+            "Shirt options",
+            "Pants options"
+        ]
+    },
+    {
+        "date": "February 3, 2025",
+        "features": [
+            "Affection tab in pauze menu displays creatures"
+        ]
+    },
+    {
+        "date": "March 17, 2025",
+        "features": [
+            "Progression System to track plot and collections"
+        ]
+    },
+    {
+        "date": "March 19, 2025",
+        "content": [
+            "Crafting Stations: Drying Rack, Cauldron"
+        ]
+    },
+    {
+        "date": "March 23, 2025",
+        "content": [
+            "Map: Mushroom Forest",
+            "Crops: Morel, Faecap, Inkcap, Chanterelle, Poppy",
+            "Creature: Boar"
+        ]
+    },
+    {
+        "date": "March 24, 2025",
+        "issues": [
+            "save slots do not display all data",
+            "deleting a save deletes multiple slots",
+            "some cc options have no label",
+            "some ui elements do not adjust to screen resize",
+            "passing out revives you in wrong location",
+            "characters load with backwards hair",
+            "going to the main menu while behind a tree causes a crash"
+        ]
+    },
+    {
+        "date": "March 25, 2025",
+        "features": [
+            "Journal pages"
+        ],
+        "content": [
+            "Romanceable character previews",
+            "Sound assets"
+        ]
+    },
+    {
+        "date": "March 26, 2025",
+        "features": [
+            "Altars"
+        ],
+        "content": [
+            "UI elements"
+        ],
+        "issues": [
+            "pauze menu doesn't display character on first load",
+            "sleeves mismatch"
+        ]
+    },
+    {
+        "date": "March 28, 2025",
+        "content": [
+            "Map: Town"
+        ],
+        "issues": [
+            "giving an altar something with energy causes a crash",
+            "altar inventory slot overrides 1st player inventory slot",
+            "npcs do not return gifts if player leaves before confirming",
+            "destructibles overlapping",
+            "unlimited number of hostile creatures",
+            "unlocked recipes do not stay unlocked"
+        ]
+    },
+    {
+        "date": "March 29, 2025",
+        "issues":[
+            "player does not pass out at midnight",
+            "cannot exit some windows with escape key",
+            "storage chest includes (clone) in ui label",
+            "tile wet status doesn't save",
+            "sometimes merging stacks renders wrong amount numbers temporarily",
+            "increase item pickup range",
+            "thyme displaying as catmint",
+            "sometimes exiting the greeting does not unfade the inventory bar",
+            "storage chest does not spawn item when killed",
+            "crafting stations do not tick when you are sleeping",
+            "crafting stations skip ahead when loading in",
+            "storage chest can be killed while it contains things",
+            "cauldron is unkillable",
+            "crops initially render their base sprite instead of a day sprite"
+        ]
+    },
+    {
+        "date": "March 30, 2025",
+        "issues": [
+            "viryn tea event doesn't fire",
+            "door not interactable",
+            "storage chest still not invulnerable when containing items",
+            "removed furniture respawns on load",
+            "crops that are harvestable when game saves are not harvestable until next day on load",
+            "door does not save conditions"
+        ]
+    },
+    {
+        "date": "March 31, 2025",
+        "release": 0.0,
+        "features": [
+            "Project Roadmap established"
+        ],
+        "issues": [
+            "can tame multiple animals with one collar",
+            "picking up a tame creature when inventory is full causes the creature item to vanish",
+            "if input is blank when accepting creature name, previous creature's name is used",
+            "closing wakeup message doesn't unpause game",
+            "if multiple items in crafting queue, picking one up causes rest to stall until reload",
+            "opening a solved altar after opening an unsolved altar causes the item to be moveable",
+            "animals that are killed too quickly move while in downstate",
+            "second star doesn't light up on altar completion"
+        ]
+    },
+    {
+        "date": "April 6, 2025",
+        "features": [
+            "Shopping",
+            "Centralized Progression System"
+        ],
+        "content": [
+            "Map: General Store",
+            "Map: Tropical Retreat",
+            "Crops: Mango, Pineapple, Bell Pepper, Butternut Squash, Burstberry"
+        ],
+        "issues": [
+            "door interaction field too small",
+            "mini workbench does not drop item when destroyed",
+            "warp locations pingpong you",
+            "increase player magnetism",
+            "crafting menu does not close on unpause game",
+            "artifact appears on selected tool in inventory",
+            "possible to scroll active item past the first 10 slots",
+            "F key for interact doesn't always work",
+            "Rose Garden back door lacks collider",
+            "if screen fade is requested before screen unfade completes, it doesn't fade again",
+            "long hair not in the back",
+            "some furniture does not shake when hit",
+            "tree trunk collider not active until tree top falls",
+            "light on/off state cannot be toggled",
+            "creature hitboxes are difficult: increase attack range"
+        ]
+    },
+    {
+        "date": "April 8, 2025",
+        "features": [
+            "Placeable Furniture",
+            "Stat modifiers",
+            "Consumeables"
+        ],
+        "content": [
+            "Crafting Stations: Jarring Station, Juicing Station"
+            
+        ]
+    },
+    {
+        "date": "April 12, 2025",
+        "features": [
+            "Shopping Tabs",
+            "Manse doors tied to plot progression"
+        ],
+        "content": [
+            "More background music",
+            "Items: assorted consumables and processed goods",
+            "Health buffs: temporary, permanent, and healing"
+        ],
+        "issues":[
+            "animals can drop multiple times per day if added to inventory",
+            "camera confinement causes a crash on loading from main menu",
+            "fix recipe unlocks display",
+            "cannot use E or F keys on character creation",
+            "cannot use F to open doors",
+            "no indication of status effects",
+            "status effects stack with permanent stat increases incorrectly"
+        ]
+    },
+    {
+        "date": "April 15, 2025",
+        "features": [
+            "Inventory stack splitting",
+            "Shop inventory represented on shelves"
+        ],
+        "content": [
+            "Character: Chanda"
+        ],
+        "issues": [
+            "can enter and remain in store when closed",
+            "cannot switch between store tabs",
+            "cannot send multiple progress notifications",
+            "cannot use F to speak to NPCs",
+            "health bar does not match health buff blue",
+            "cannot place furniture in own room",
+            "improved player magnetism",
+            "furniture respawns every load"
+        ]
+    },
+    {
+        "date": "April 17, 2025",
+        "content": [
+            "Talk sprites: Chanda"
+        ],
+        "issues": [
+            "tillable tiles covered by non-tillable tiles can be tilled",
+            "cannot use F to pet animals",
+            "adjust camera confinement in town",
+            "fainting on a map with location prefabs causes a crash",
+            "rain coverage is weird when loading from main menu; loading from indoors is fine",
+            "no message when attempting to plant crops on the wrong map",
+            "crops grow when initially planted, instead of waiting a day"
+        ]
+    },
+    {
+        "date": "April 18, 2025",
+        "features": [
+            "Player character default appearance"
+        ],
+        "content": [
+            "Sign for General Store"
+        ],
+        "issues": [
+            "buffs apply globally instead of per-save",
+            "speed buff does not apply",
+            "attempting to craft something with insufficient materials causes unpause",
+            "shipping bins do not sell if sleeping on a different map",
+            "unlock messages repeating",
+            "separate collider (interaction) from collider (collision) on interactable furniture",
+            "public street lamps still interactible",
+            "lights turned off manually cannot be turned back on",
+            "player sometimes cannot move on new game start",
+            "cannot select item 10 except by clicking",
+            "adjust camera confinement in player room and other indoor spaces",
+            "should focus the dialogue next button instead of the close button when available",
+            "flag for dropped item appears without item being dropped"
+        ]
+    },
+    {
+        "date": "April 19, 2025",
+        "release": 0.1,
+        "issues": [
+            "menu doesn't display current health",
+            "menu doesn't display permanent buffs correctly",
+            "temporary affection bonus becomes permanent",
+            "creatures dropping multiple times a day if reloaded",
+            "insufficient number and variety of food buffs",
+            "creature speed and player health fixed",
+            "insufficient glass to craft most of the time",
+            "store item notification displays multiple times",
+            "chanda references characters who do not yet exist",
+            "player room light is dim",
+            "jar recipes do not unlock",
+            "tropical punch recipe cannot be unlocked or crafted",
+            "artifact on shop seeds",
+            "crops may grow without water",
+            "recipes not displaying unlocked: pineapple, mango, burstberry (still craftable)",
+            "captured memory recipe does not unlock",
+            "trees jump you back",
+            "rose garden crafting station respawns if moved",
+            "jars and glasses not actually required for jam and juice",
+            "accepting crafted items while inventory is full causes those items to vanish",
+            "good morning message after knockout does not unpauze when closing"
+        ]
+    },
+    {
+        "date": "May 28, 2025",
+        "features": [
+            "Cutscenes"
+        ]
+    },
+    {
+        "date": "May 31, 2025",
+        "content": [
+            "Items: assorted food"
+        ]
+    },
+    {
+        "date": "June 3, 2025",
+        "content": [
+            "Furniture",
+            "Explorable Area item drops"
+        ]
+    },
+    {
+        "date": "June 13, 2025",
+        "content": [
+            "Additional NPC dialogue",
+            "Updated item descriptions"
+        ],
+        "issues": [
+            "talking to one npc and then a different npc on a different map may crash the game",
+            "door progress lamps stopped working after cutscenes were introduced",
+            "animals drop rare items too often",
+            "it does not get dark at night",
+            "shop inventory display causes game to crash on entering shop",
+            "fix door interaction windows",
+            "can walk offscreen in the north of town"
+        ]
+    },
+    {
+        "date": "June 17, 2025",
+        "features": [
+            "Explorable Areas",
+            "Randomized destructible sprites"
+        ],
+        "content": [
+            "Map: Succulent Sanctuary",
+            "Maps: Town Outskirts, Mines 1-3, Forest 1-3",
+            "Forest plants"
+        ]
+    },
+    {
+        "date": "June 18, 2025",
+        "features": [
+            "Sleep window: end of day shipping total",
+            "Warp menu"
+        ]
+    },
+    {
+        "date": "June 21, 2025",
+        "features": [
+            "Cheat codes",
+            "Magic Circles and Ladders",
+            "Item Groups for Crafting"
+        ],
+        "issues": [
+            "player warp on knockout prevents sleep message or menu from displaying",
+            "leaving a map causes the destruct spawner to error"
+        ]
+    },
+    {
+        "date": "June 23, 2025",
+        "features":[
+            "Warp Home from pauze menu",
+            "Explorable Area Progression"
+        ],
+        "issues": [
+            "speaking to multiple npcs causes a crash",
+            "progression system does not track succulent sanctuary",
+            "two doors lead to rose garden",
+            "some npc dialogue displays an unneeded next arrow",
+            "headstones are destructible and drop a rock that cannot be picked up",
+            "lamps in town are togglable",
+            "player spawns on top of store at new game",
+            "fountains behave unpredictably when attacked",
+            "cash register not layer sorting correctly",
+            "some npcs are inconsistently affected by lighting",
+            "back of hair displays when it shouldn't",
+            "cheat code submission doesn't wipe text",
+            "animals and destructs spawn too close to map entrances",
+            "destructs can spawn on top of furniture and fixtures",
+            "edges of maps are visible on large screens",
+            "mines have too much light and are affected by time of day",
+            "mines crash on entrance",
+            "explorable zones crash on final level",
+            "explorable zones cannot progress to deeper levels"
+        ]
+    },
+    {
+        "date": "June 24, 2025",
+        "issues": [
+            "screen is faded out during cutscenes",
+            "camera is not focused on actors during cutscene",
+            "player cannot be used as an actor",
+            "npcs and equivalent actors can be onscreen at the same time",
+            "canceling a cutscene by pressing the pauze key does not return actors correctly",
+            "actor movement causes infinite loop"
+        ]
+    },
+    {
+        "date": "June 26, 2025",
+        "issues": [
+            "harvested crops and other destroyed prefabs reappear on reload sometimes",
+            "randomized tile locations are not sufficiently random",
+            "prefabs sometimes overlap",
+            "creature limiter does not work",
+            "leaving the area of a cutscene afterwards causes a crash",
+            "most zones have not been switched to the new spawning system",
+            "scene identification is not fine-grained enough for cutscenes",
+            "exploration zone prefabs are not destroyed before respawning",
+            "warp home button does not close pauze menu",
+            "no saved games popup doesn't close on change screen",
+            "cutscene options do not display",
+            "characters in and moving to wrong locations in cutscenes, facing wrong directions",
+            "cutscenes are unlocked by default",
+            "cutscene triggers are unreliable",
+            "furniture can be overlapped by prefabs",
+            "magic circles and down ladders overlap player",
+            "corner icons not legible on dark jars"
+        ]
+    },
+    {
+        "date": "June 28, 2025",
+        "content": [
+            "Talk sprites: Sparrow, Petya, Lazarus"
+        ]
+    },
+    {
+        "date": "June 30, 2025",
+        "features": [
+            "Randomized shopping tabs"
+        ],
+        "content": [
+            "Crafting Station: Kitchenette",
+            "Progression Altars: Succulent Sanctuary"
+        ],
+        "issues": [
+            "lights turn off on second load",
+            "lights sometimes become impossible to toggle",
+            "allow map completion crops to grow anywhere",
+            "some items are priced incorrectly",
+            "watered dirt tile: two opposite corners is rotated"
+        ]
+    },
+    {
+        "date": "July 3, 2025",
+        "features": [
+            "Tree Crops",
+            "Multiple Crop harvests"
+        ],
+        "content": [
+            "Crops: Corn, Apple, Pear, Avocado, Cocoa, Sugar, Coffee, Broccoli",
+            "Creature: Frilled Dragon"
+        ],
+        "issues": [
+            "shop random stock is still unlock-based"
+        ]
+    },
+    {
+        "date": "July 9, 2025",
+        "features": [
+            "Cutscene options"
+        ],
+        "content": [
+            "Cutscenes: Round 1",
+            "Items: Iron Tools",
+            "Items: food and consumables",
+            "Splash banners for non-farm maps"
+        ],
+        "issues": [
+            "tree crops need to be watered",
+            "tree crops position adjustments",
+            "make sure that player cannot destroy trees in town",
+            "connected items, recipes, and unlocks",
+            "some foods do not have correct consume effects",
+            "simplified consume effects"
+        ]
+    },
+    {
+        "date": "July 15, 2025",
+        "issues": [
+            "new game broken by duplicate recipe",
+            "speed gets set to 0 on reload",
+            "food not showing up for purchase",
+            "static item tabs that are empty still appear",
+            "recipes not unlocking",
+            "attempting a craft you cannot afford causes the game to crash"
+        ]
+    },
+    {
+        "date": "July 16, 2025",
+        "release": 0.2,
+        "issues": [
+            "iron tools are not on the recipe progression tracker",
+            "cannot till succulent sanctuary",
+            "sandstone outcrop drops too much stuff",
+            "nothing happens when crafting a shiny rock",
+            "magic circle drop rate is too high",
+            "character placements in sparrow's intro cutscene are reversed",
+            "succulent sanctuary door is too high",
+            "cannot enter forest if a magic circle drops"
+        ]
+    },
+    {
+        "date": "July 27, 2025",
+        "features": [
+            "Upgraded project logging",
+            "Started promotional website"
+        ]
+    },
+    {
+        "date": "July 28, 2025",
+        "issues": [
+            "message window not tall enough",
+            "no quantity indicator on altars",
+            "stations damaged while queue items are finished but have not been picked up drop a station item",
+            "tooltip displays over top of items",
+            "scroll menus start in middle instead of top",
+            "player renderer in pauze menu displays incorrectly on initial load",
+            "player displays incorrectly in cutscenes",
+            "save slots display incorrectly after first tab"
+        ]
+    },
+    {
+        "date": "August 1, 2025",
+        "content": [
+            "Walk sprites for Josephine, Mayumi, and Rick"
+        ]
+    },
+    {
+        "date": "August 2, 2025",
+        "content": [
+            "Walk sprites for Sundeep, Nilam, and Ruth",
+            "Dialogue added for Rick, Sundeep, and Mayumi",
+            "Buildings exterior: General Store, Ruth, and Josephine",
+            "Furniture: Crate, Marigold Garland, Wisteria Lattice"
+        ]
+    },
+    {
+        "date": "August 3, 2025",
+        "content": [
+            "Building exteriors: Church, Abandoned Building, Bus Stop",
+            "Town layout rework"
+        ]
+    },
+    {
+        "date": "August 4, 2025",
+        "features": [
+            "Store inventory randomized display"
+        ],
+        "content": [
+            "Buildings: Hardware Store, Nilam's house",
+            "Map: Hardware Store interior",
+            "Expanded new layout of town",
+            "Fixtures: double door, colored windows",
+            "Item: Pedestal",
+            "Items: pink wood furniture"
+        ],
+        "issues": [
+            "interactables do not work if nested too deep",
+            "attempting to remove an item that doesn't exist causes a crash"
+        ]
+    },
+    {
+        "date": "August 5, 2025",
+        "content": [
+            "Items: assorted furniture"
+        ],
+        "issues": [
+            "inconsistent furniture naming and behavior",
+            "can walk through lazarus's middle wall",
+            "back door of general store connects to manse"
+        ]
+    },
+    {
+        "date": "August 6, 2025",
+        "features": [
+            "Increased inventory display flexibility"
+        ],
+        "content": [
+            "Furniture added to plot rooms"
+        ],
+        "issues": [
+            "doors do not give feedback when locked",
+            "new furniture does not shake when damaged"
+        ]
+    },
+    {
+        "date": "August 7, 2025",
+        "feature": [
+            "Updated game intro to provide more context"
+        ],
+        "content": [
+            "Furniture: Mirror, Single Bed, Double Bed, Mail, Dresser, End Table"
+        ]
+    },
+    {
+        "date": "August 8, 2025",
+        "content": [
+            "More colorways for most furniture",
+            "Furniture: Flag, Fridge, Stove, Counter, Slow Cooker, Dinnerware, Jar Candle, Candle Cluster, Bunny Plushie, Record Player, Radio, String Lights, Table Fountain, Knitting Supplies, Book Pile, Broken Chair, Tall Vase, Wide Vase"
+        ]
+    },
+    {
+        "date": "August 9, 2025",
+        "features": [
+            "Display Shelving"
+        ],
+        "content": [
+            "Items: new furniture items added to game"
+        ]
+    },
+    {
+        "date": "August 10, 2025",
+        "features": [
+            "Input refactoring"
+        ]
+    },
+    {
+        "date": "August 11, 2025",
+        "features": [
+            "Input customization",
+            "Settings on Main Menu",
+            "Grid Info Actions",
+            "Grid Info for crops"
+        ],
+        "content":[
+            "Talk sprite (neutral) for Josephine",
+            "Maps: Sparrow and Josephine bedrooms",
+            "Map updates: Lazarus and Sparrow common rooms"
+        ]
+    },
+    {
+        "date": "August 12, 2025",
+        "features": [
+            "Grid Info for furniture",
+            "Grid Info Actions"
+        ]
+    },
+    {
+        "date": "August 13, 2025",
+        "features": [
+            "Grid Info Actions for furniture" 
+        ],
+        "issues": [
+            "some furniture does not have the required colliders",
+            "furniture on tables does not sort correctly on reload",
+            "furniture cannot load",
+            "storage window does not have flexible number of items",
+            "furniture on tables cannot be targeted by grid info",
+            "tooltip images dont display in pauze menu",
+            "grid info displays over top of pauze menu",
+            "left click triggers item use even when clicking on grid info button"
+        ]
+    },
+    {
+        "date": "August 25, 2025",
+        "issues": [
+            "shop door not visible (still usable)",
+            "lazarus's wall overlaps player",
+            "sprite randomizer breaks gravestones",
+            "infinite fountains in entrance plaza",
+            "no side face on awake face option",
+            "grid info breaks on npc-owned furniture",
+            "ladder overlaps player"
+        ]
+    },
+    {
+        "date": "September 4, 2025",
+        "features": [
+            "Divine Crops"
+        ]
+    },
+    {
+        "date": "September 5, 2025",
+        "content": [
+            "Divine Crops"
+        ]
+    },
+    {
+        "date": "September 6, 2025",
+        "content": [
+            "Crops: Onions, Garlic",
+            "Divine Crops: Strawberry, Cucumber"
+        ],
+        "issues": [
+            "crops no longer show grid info due to sorting group location",
+            "divine crops don't save correctly"
+        ]
+    },
+    {
+        "date": "September 7, 2025",
+        "content": [
+            "Items: fertilizer",
+            "Furniture: Bonsai, Hanging Herbs"
+        ],
+        "issues": [
+            "not possible to grow base form of divine crops",
+            "escape to skip cutscenes doesn't work after updating input system",
+            "no drag on item gifting window",
+            "always raining",
+            "tabletop furniture do not display grid info"
+        ],
+        "features": [
+            "Change volumes and controls from Start Menu"
+        ]
+    },
+    {
+        "date": "September 9, 2025",
+        "features": [
+            "Grid Info for Destructibles and Crafting Stations"
+        ],
+        "issues": [
+            "shop pricing overlaps with item names",
+            "grid info for cash registers not displaying",
+            "clicking options button multiple times causes duplicate options to display"
+        ],
+        "content": [
+            "Furniture: Firewood, Rugs"
+        ]
+    },
+    {
+        "date": "September 10, 2025",
+        "content": [
+            "Divine Crops: Mango, Pineapple, Burstberry, Bell Pepper, Squash, Sugar, Coffee"
+        ]
+    },
+    {
+        "date": "September 11, 2025",
+        "features": [
+            "Divine Crops item generation automation"
+        ],
+        "content": [
+            "Divine Crops: Festive Bloom, Oats, Blue Agave, Prickly Pear, Blade-Apple Berry, Broccoli, Corn",
+            "Maps: Mines Breakpoint 1, Forest Clearing 1",
+            "Characters: Fang, Lyra"
+        ]
+    },
+    {
+        "date": "September 12, 2025",
+        "content": [
+            "Maps: Mines 4-9, Forest 4-9",
+            "Tutorials"
+        ]
+    },
+    {
+        "date": "September 13, 2025",
+        "content": [
+            "Talk sprite: Nilam",
+            "Items: Blood"
+        ],
+        "features": [
+            "Priority Quotes",
+            "Hostile Creatures in Explorable Zones"
+        ]
+    },
+    {
+        "date": "September 14, 2025",
+        "features": [
+            "Tutorials",
+            "Grid Info keyboard controls (Q, R)"
+        ],
+        "content": [
+            "Tutorial Cutscenes",
+            "Talk sprites: Mayumi, Rick"
+        ]
+    },
+    {
+        "date": "September 15, 2025",
+        "content": [
+            "Cutscenes: Lazarus",
+            "Quotes: Josephine, Rick, Nilam"
+        ]
+    },
+    {
+        "date": "September 16, 2025",
+        "content": [
+            "Quotes: Ruth, Sundeep, Lyra, Fang"
+        ]
+    },
+    {
+        "date": "September 17, 2025",
+        "content": [
+            "Furniture: Butterfly Board, Coyote Skull, Writing Supplies, Wheelchair"
+        ],
+        "issues": [
+            "furniture options available despite being broken",
+            "trying to pick up a piece of furniture storing other items causes a crash",
+            "after load, cannot get grid info for tabletop items",
+            "pressing R after picking up a piece of furniture causes a crash"
+        ]
+    },
+    {
+        "date": "September 18, 2025",
+        "issues": [
+            "cannot place wall items high on wall",
+            "when a tabletop item is placed, it displays behind the table",
+            "tabletop items spawn inside table when first placed, but outside table on load",
+            "picking up a table holding a tabletop item destroys the tabletop item"
+        ],
+        "features": [
+            "Grid Info mouse selection",
+            "Multi-tile hoe and watercan actions",
+            "Ability to un-till soil"
+        ]
+    },
+    {
+        "date": "September 19, 2025",
+        "content": [
+            "Added recent furniture sprites to game",
+            "Items: Divine Emblems and Statues"
+        ]
+    },
+    {
+        "date": "September 20, 2025",
+        "content": [
+            "New exteriors for many buildings",
+            "Map: Nilam's House"
+        ],
+        "features": [
+            "creature chow"
+        ]
+    },
+    {
+        "date": "September 21, 2025",
+        "content": [
+            "Map: Petya Bedroom"
+        ],
+        "issues": [
+            "indoor maps need adjustments for furniture functionality updates",
+            "manse unlockable rooms cannot be decorated",
+            "pressing pauze after picking up a storage unit causes a crash",
+            "tabletop lighting does not maintain tabletop and lit status on load",
+            "after loading and removing a tabletop item from a table, cannot place another tabletop item on that table",
+            "interact key only works when cursor is on interactable for some items"
+        ]
+    },
+    {
+        "date": "September 22, 2025",
+        "content": [
+            "Talk sprite: Ruth"
+        ],
+        "issues": [
+            "creatures are not fed on daily reset"
+        ]
+    },
+    {
+        "date": "September 23, 2025",
+        "features": [
+            "Crafting station alt colors",
+            "Crafting recipe lists per station moved to variable"
+        ],
+        "content": [
+            "Pearl furniture color updated"
+        ]
+    },
+    {
+        "date": "September 24, 2025",
+        "issues": [
+            "possible to untill soil under planted crop",
+            "untilled soil does not save",
+            "pressing R while typing a new name for a creature picks the creature up"
+        ],
+        "features": [
+            "Grid Info for creatures",
+            "Renaming creatures",
+            "Totals on Sleep Menu",
+            "Crafting and shopping windows display inventory amounts"
+        ],
+        "content": [
+            "Recipes: Light Trough, Regular Chow",
+            "Recipes updated for crafting stations",
+            "Map: Ranch Store"
+        ]
+    },
+    {
+        "date": "September 25, 2025",
+        "content": [
+            "Crop: Potato",
+            "Creature: Goat",
+            "Character: Darkhoof"
+        ],
+        "issues": [
+            "player movement slow in editor"
+        ]
+    },
+    {
+        "date": "September 26, 2025",
+        "content": [
+            "Cutscenes: Sparrow 2-3, Petya 2-3"
+        ]
+    }
+]
