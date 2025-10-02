@@ -665,7 +665,7 @@
     },
     {
         "date": "August 7, 2025",
-        "feature": [
+        "features": [
             "Updated game intro to provide more context"
         ],
         "content": [
@@ -966,6 +966,49 @@
         "date": "September 26, 2025",
         "content": [
             "Cutscenes: Sparrow 2-3, Petya 2-3"
+        ]
+    },
+    {
+        "date": "September 27, 2025",
+        "content": [
+            "Fish: Silver-Tipped Betta, Rainbow Trout, Axolotl"
+        ]
+    },
+    {
+        "date": "September 28, 2025",
+        "content": [
+            "Implementing cutscenes",
+            "Fish: Rose Garden"
+        ],
+        "issues": [
+            "incorrect character placement in cutscenes"
+        ]
+    },
+    {
+        "date": "September 30, 2025",
+        "content": [
+            "Implementing cutscenes",
+            "Updated tutorials: creature chow, hammer dirt",
+            "Furniture recipes"
+        ],
+        "features": [
+            "Crafting and shopping limited by inventory amounts"
+        ]
+    },
+    {
+        "date": "October 1, 2025",
+        "release": 0.3,
+        "content": [
+            "Furniture recipes can now be learned",
+            "Crafting Station: Furniture Workbench",
+            "Items: Dye, Cloth, Luminance, Darkness",
+            "Furniture: Rope"
+        ]
+    },
+    {
+        "date": "October 2, 2025",
+        "issues": [
+            "multiple issues found during pre-release playtesting"
         ]
     }
 ]

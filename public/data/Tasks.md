@@ -31,6 +31,7 @@
 * show placement previews
 * fencing
 * rugs
+* wallpaper and flooring
 
 ##### WORLD
 
@@ -39,11 +40,16 @@
 * hostile attack patterns
 * critical hits and hit variability
 * color mask shader should be affected by lighting
+* forageables
+* more animations in the world
 
 ##### SOCIAL
 
 * cutscene music
 * cutscene replay
+* when cutscene is unlocked, trigger quote to notify player
+* move some furniture recipes to cutscenes
+* more quotes
 
 ##### PROGRESSION
 
@@ -51,11 +57,14 @@
 * validation method on progress checker for updating old save data
 * hover item to see if an altar or collection needs it
 
-##### THOUGHTS
+##### USER INTERFACE
 
-* forageables
-* more animations in the world
 * forest: swirling haze screen border until circle is found
+* grid selection sprite: corners only
+* ui element border: more ornate corners, more plain middles
+* default font does not include characters with accents
+* ban some special characters from player and creature names
+* altar window too small
 
 ##### SOUNDS
 
@@ -63,6 +72,7 @@
 * creature sounds: affection and yell
 * tool sounds
 * ui sounds
+* music to fade in and out
 
 ##### ISSUES
 
