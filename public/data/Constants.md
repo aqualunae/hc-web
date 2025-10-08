@@ -1,4 +1,4 @@
-#### FARM MAPS
+## FARM MAPS
 
 Entrance Plaza, Rose Garden, Mushroom Forest, Crystal Cave, Tropical Retreat, Hive Home, Alchemical Laboratory, Succulent Sanctuary, Molten Crater, Secret Graveyard, Toothless Maw, Gleaming Sea, Abyssal Void
 
@@ -9,27 +9,18 @@ petya route -> tropical retreat, hive home, alchemical laboratory
 other -> toothless maw, entrance plaza, final greenhouse
 dlc -> gleaming sea, abyssal void
 
-#### EMOTIONS
-
-* neutral
-* happy
-* flustered
-* sad
-* angry
-* surprised
-
-#### ECONOMY
+## ECONOMY
 
 all prices rounded to 5
 10 gold : 1 token
 
-###### BASE
+### BASE
 
 1st tier map: 10g/day
 2nd tier map: 35g/day
 3rd tier map: 80g/day
 
-###### MATH
+### MATH
 
 produce base: x rarity
 unlocked: x1.2
@@ -38,35 +29,35 @@ cheap: x0.8
 
 destruct mats: rarity x map base x 0.5 x map tier
 
-###### CRAFTING
+### CRAFTING
 
 processed: 4x value
 crafted: total price of ingredients x1.3
 
-###### SPAWNS
+### SPAWNS
 
 seeds: price of crop to buy, 10g to sell
 captive: 5x highest drop
 
-###### PURCHASE
+### PURCHASE
 
 2x price for crops/produce
 2.5x price for crafted
 10x price for materials
 
-#### DAMAGE
+## DAMAGE
 
 3-6 / 12-18 / 36-54
 
-#### BUFFS
+### BUFFS
 
 multiples of 180 seconds
 health 0.2 min
 speed/aff 0.1 min
 
-#### EXPLORABLE MAPS
+## EXPLORABLE MAPS
 
-###### MINES
+### MINES
 
 dark stone / slate / granite / marble
 iron -> silver -> orichalcum
@@ -75,7 +66,7 @@ hard water -> deeprock water -> umbral water
 drifters
 rich earth (fertilizer)
 
-###### FOREST
+### FOREST
 
 wood chips / kindling / gnarled roots / colorful leaves
 ash -> oak -> foxfire
@@ -84,7 +75,7 @@ clear water -> spring water -> iridescent water
 floaters
 sweet clover (fodder)
 
-#### BUILDING HOURS
+## BUILDING HOURS
 
 * general store: 8-22
 * museum: 9-19
@@ -96,21 +87,62 @@ sweet clover (fodder)
 * ruth: 7-21
 * rick: 18-21
 
-#### FURNITURE COLORS
+## FURNITURE
+
+### COLORS
 
 * wood: light, dark, pink, black,
 * metal: iron, silver, gold, black / pearl,
 * upholstery: blue, red / green, pink / cream, black,
 * light: red, yellow, green, blue, purple
 
-#### CUTSCENES
+### THEMED PIECES
+
+* wardrobe
+* wall hanging
+* tabletop
+* table
+* chair
+* lighting
+* shelf
+
+#### HYDROGLASS
+
+* Frosted
+* Earthen
+* Industrial
+
+#### ROSETHORN
+
+* Briar
+* Nightshade
+* Primrose
+
+#### CITRUSBURST
+
+* orange
+* lime
+* berryThe
+
+## CHARACTERS
+
+### EMOTIONS
+
+* neutral
+* happy
+* flustered
+* sad
+* angry
+* surprised
+
+### CUTSCENES
 
 BACK: Y1
 FORWARD: Y-1
 LEFT: X-1
 RIGHT: X1
 
-###### SPARROW
+#### SPARROW
 
 * picking flowers in the forest
 * bad cafe date
@@ -119,7 +151,7 @@ RIGHT: X1
 * one where you get lost in the woods and she finds you, and talks about finding herself
 * yelling at eirwyn together
 
-###### LAZARUS
+#### LAZARUS
 
 * icebreaker. kicking rocks by the train tracks
 * bail him out of getting into a fight with one of the townsfolk
@@ -128,7 +160,7 @@ RIGHT: X1
 * maybe the graveyard eyes one
 * quitting the tournament
 
-###### PETYA
+#### PETYA
 
 * meet him for coffee and he talks about his book
 * event where you were going to go out but he's feeling unwell so you both hang out at his place for a while; he talks about his homeland and his struggles fitting in here
@@ -137,16 +169,16 @@ RIGHT: X1
 * letter from ruth's girl about her journalism endeavors, petya gains determination
 * THEN the recruiter visa scene
 
-#### PLAYERS
+## PLAYERS
 
-###### TESTING
+### TESTING
 
 * avery
 * udell
 * kay
 * summer
 
-###### DEMO
+### DEMO
 
 * eris
 * michele
@@ -155,7 +187,7 @@ RIGHT: X1
 * nerves
 * ev
 
-#### DEMO ADJUSTMENTS
+## DEMO ADJUSTMENTS
 
 * warp locations: new game, sleep
 * triggers: rose garden enter and sparrow intro

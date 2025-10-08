@@ -26,24 +26,31 @@ V0.2 - July 15, 2025
 * petya and ruth's house interior
 * succulent sanctuary
 * cutscenes mechanic and round 1
+* forest area 1
+* mines area 1
 
-V0.3 <---
+V0.3 - October 4, 2025
 
 * hardware store interior
 * ranch interior
-* bedrooms for everyone
+* bedrooms for some
 * entrance plaza
 * customizable controls / ui upgrades / tutorials
 * cutscenes round 2
+* furniture
+* creature feeding
 
-V0.4
+V0.4 <--
 
-* forest area 1
-* mines area 1
+* more bedrooms
+* forest and mines first breakpoint area
 * mushroom forest
-* map view
+* sound effects
 * animation upgrades
+* divine crops
+* fertilizer
 * cutscenes round 3
+* trailer and marketing launch
 
 V0.5
 
@@ -51,7 +58,8 @@ V0.5
 * mines area 2
 * hive home
 * mail
-* creature upgrades
+* collections
+* quests
 * cutscenes round 4
 
 V0.6
@@ -60,7 +68,10 @@ V0.6
 * mines area 3
 * molten crater
 * fishing
-* furniture upgrades
+* forageables
+* divine creatures
+* decoration: fencing, pathing, wallpaper, flooring, rugs
+* furniture placement previews and options menus
 * cutscenes round 5
 
 V0.7
@@ -69,6 +80,8 @@ V0.7
 * secret graveyard
 * alchemical laboratory
 * pets
+* map view
+* check and improve accessibility
 * cutscenes round 6
 
 V0.8

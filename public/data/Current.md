@@ -5,50 +5,42 @@
 * animals and npcs to avoid obstacles when going to a specific destination
   * allow npcs (but not creatures) to cross rocks and weeds
   * npc wandering fix (fixed update?)
+* sort inventory mechanic
+* location indicator banner
+* select material from item group for crafting
+* crafting station able to use local storage chest items
+* progress bar on queue items
+* npcs able to move between maps
 
 ##### ISSUES
 
 * check tile offset toggle on furniture
-
-###### Cutscenes
-* frame 2 of petya intro has bad positioning
-* frame 1 of viryn tutorial is reversed
-* frame 1 of sparrow intro is reversed
-* frame 1 of sparrpw forest tutorial is reversed
-* frame 1 of lazarus intro is reversed
-* player actor needs to be removed from forest outskirts and mine 1
-
-###### Crops
-
-* wheat all sprites still seed
-* festive bloom seed plants lavender
-* blue agave seed action doesn't remove seed from inventory
-* no grid info for blue agave
-
-###### Items and Crafting
-
-* crops item group has no icon
-* crafting an item that uses crafting groups locks in the selected items and causes malfunction
-* mini workbench: wrong animation & infinite queue
-
-###### User Interface
-
-* no tooltip on shipping bin window
-* tutorials menu doesn't close on pauze key
-* enter at end of dialogue should close the window (focus X)
-
-###### Creatures
-
-* creatures too fast; animations jittery
-* creature downstate countdown counts while pauzed
-
-###### World
-
+* crops planted while it's raining don't get watered
 * no tile for wet soil opposite corners
+* creature animations jitter when chasing player
+* rose garden south should not lead to town
+* crafting queue not counting down while player is off-map
+* shipping bins don't always trigger
+
+* backspace in the name field closes the window
+* enter at end of dialogue should close the window (focus X)
+* tooltip sometimes appears in middle of screen
+* crafting an item refreshes the inventory count for that item, but not all items
+* check keyboard navigation on inventory screens
 
 ##### CONTENT
 
 * furniture: singing fish, toolbox
+* upgrade tool animations
+* petting / interaction animation
+* fishing animations
+* creature: squirrel
+* tree: almond
+* talk sprites: lyra, fang, sundeep
+* talk emotes: josephine, nilam, mayumi, rick, ruth
+* more quotes
+* forest: swirling haze screen border until circle is found
+* icons on grid info: crop fertilizer and water, animal pet
 
 ##### ADD TO CC
 
@@ -65,4 +57,4 @@
   * may be connected to destructibles spawning
   * could be connected to the crop changing sprites
 * blade-apple crumble altar starts fulfilled
-* crops reappear after harvest sometimes
+* mini workbench: wrong animation & infinite queue

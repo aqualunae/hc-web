@@ -50,7 +50,7 @@ const Carousel = ({ images }: { images: Image[] }) => {
     console.log(left)
 
     return (
-        <div id="carousel-outer">
+        <div id="carousel-outer" className="box">
             <div id="carousel">
                 <div id="carousel-left">
                     <img className="carousel-image" src={ `/img/${ images[left].filename }.png` } alt={ images[left].alt } />

@@ -4,15 +4,13 @@
 
 ##### MAJOR FEATURES
 
-* buffs (permanent and temporary)
-* cutscenes
-* customizable controls
 * map view
 * mail
 * fishing
 * pets
 * change clothes
-* collections
+* collections, quests, and achievements
+* divine crops and creatures
 
 ##### ITEMS
 
@@ -23,7 +21,8 @@
 * crafting and shopping: quantity number input
 * crafting and shopping: decrease loop to maximum amount
 * select material from item group for crafting
-* dying and/or upgrading crafting station
+* modification crafting station
+* creature auto-feeder / silo
 
 ##### FURNITURE
 
@@ -32,6 +31,7 @@
 * fencing
 * rugs
 * wallpaper and flooring
+* path tiles
 
 ##### WORLD
 
@@ -50,6 +50,7 @@
 * when cutscene is unlocked, trigger quote to notify player
 * move some furniture recipes to cutscenes
 * more quotes
+* characters present on multiple maps do not share progression
 
 ##### PROGRESSION
 
@@ -65,6 +66,8 @@
 * default font does not include characters with accents
 * ban some special characters from player and creature names
 * altar window too small
+* icons on grid info: crop fertilizer and water, animal pet
+* check and improve functionality on all control schemes
 
 ##### SOUNDS
 
@@ -91,7 +94,7 @@
 * talk sprites: sundeep, lyra, fang, eirwyn, puppeteer, vincent, tiffany, haiyan
 * talk sprite emotions: josephine, nilam, mayumi, rick, ruth
 * walk sprites: vincent, tiffany, haiyan
-* special walking sprites: puppeteer, eirwyn
+* special walk sprites: puppeteer, eirwyn
 
 ##### TILESETS
 

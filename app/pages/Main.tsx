@@ -4,11 +4,13 @@ import axios from 'axios';
 import Carousel from '~/components/Carousel';
 import type { Devlog } from '~/types/Devlog';
 import type { Image } from '~/types/image';
+import Links from '~/components/Links';
+import Summary from '~/components/Summary';
+import DevLogsWindow from '~/components/DevLogsWindow';
 
 export async function clientLoader({ params }: Route.ClientLoaderArgs) {
-    const logs = await axios.get(`/sampledata/logs.json`);
-    console.log(logs);
-    const images = await axios.get(`/sampledata/images.json`);
+    const logs = await axios.get(`/data/logs.json`);
+    const images = await axios.get(`/data/images.json`);
     return { logs, images };
 }
 
@@ -24,9 +26,9 @@ const Main = () => {
     useEffect(() => {
         (async() => {
             try {
-                const logsData = await axios.get(`/sampledata/logs.json`);
-                setLogs(logsData.data);
-                const imageData = await axios.get(`/sampledata/images.json`);
+                const logsData = await axios.get(`/data/logs.json`);
+                setLogs(logsData.data.reverse());
+                const imageData = await axios.get(`/data/images.json`);
                 setImages(imageData.data);
             } catch(err) {
                 console.log(err);
@@ -37,6 +39,15 @@ const Main = () => {
     return (
         <>
             <Carousel images={ images } />
+            <div className="row wide">
+                <div className="col half-wide">
+                    <Links />
+                    <DevLogsWindow logs={ logs } />
+                </div>
+                <div className="col half-wide">
+                    <Summary />
+                </div>
+            </div>
         </>
     )
 }

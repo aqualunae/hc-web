@@ -997,7 +997,6 @@
     },
     {
         "date": "October 1, 2025",
-        "release": 0.3,
         "content": [
             "Furniture recipes can now be learned",
             "Crafting Station: Furniture Workbench",
@@ -1009,6 +1008,55 @@
         "date": "October 2, 2025",
         "issues": [
             "multiple issues found during pre-release playtesting"
+        ]
+    },
+    {
+        "date": "October 3, 2025",
+        "issues": [
+            "wheat all sprites still seed",
+            "festive bloom seed plants lavender",
+            "no grid info for blue agave",
+            "crafting an item that uses crafting groups locks in the selected items and causes malfunction",
+            "creatures too fast",
+            "tutorials menu doesn't close on pauze key",
+            "cutscene player actor present on some maps",
+            "some cutscenes character placement is reversed on first frame",
+            "frame 2 of petya intro has bad positioning",
+            "crops item group has no icon",
+            "no tooltip on shipping bin and item storage windows",
+            "recipes using item groups consume items and do not queue",
+            "rocks spawn on top of lazarus's house",
+            "ruth and nilam not present on town map",
+            "drop-rate balancing for ash logs and iron ore"
+        ]
+    },
+    {
+        "date": "October 4, 2025",
+        "release": 0.3,
+        "issues": [
+            "selling items that don't stack displays quantity as 0",
+            "darkhoof doesn't move",
+            "creature downstate counter counts while pauzed",
+            "magic circle overlaps player",
+            "fountain in town park is gold instead of black",
+            "creatures defeated with iron scythe don't die",
+            "trees felled with iron axe don't drop items; stump also dies",
+            "difficult to hit targets from below with iron tools"
+        ]
+    },
+    {
+        "date": "October 6, 2025",
+        "content": [
+            "Furniture: Rosethorn Wardrobe, Rosethorn Wall Hanging, Hydroglass Wardrobe, Hydroglass Wall Hanging, Citrusburst Wardrobe, Citrusburst Wall Hanging"
+        ]
+    },
+    {
+        "date": "October 7, 2025",
+        "content": [
+            "Furniture: Rosethorn Table Lamp, Rosethorn Chaise, Rosethorn Bouquet"
+        ],
+        "features": [
+            "Website updated to include links, summary, devlogs"
         ]
     }
 ]
