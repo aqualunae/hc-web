@@ -7,9 +7,9 @@ const Links = () => {
             <center><h2>Find Hallowed Crossing</h2></center>
             <div className="row">
                 <LinkButton icon={'bluesky'} url={'https://bsky.app/profile/hallowedcrossing.bsky.social'} title={'Bluesky'} />
-                <LinkButton icon={'discord'} url={''} title={'Discord (Coming Soon)'} />
+                <LinkButton icon={'discord'} url={'https://discord.gg/JrVwzwXCaq'} title={'Discord'} />
                 <LinkButton icon={'steam'} url={''} title={'Steam (Coming Soon)'} />
-                <LinkButton icon={'itch'} url={''} title={'Itch.io (Coming Soon)'} />
+                <LinkButton icon={'itch'} url={'https://hallowedcrossing.itch.io/hallowed-crossing'} title={'Itch.io'} />
             </div>
         </div>
     )

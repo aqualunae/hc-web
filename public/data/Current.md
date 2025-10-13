@@ -11,6 +11,10 @@
 * crafting station able to use local storage chest items
 * progress bar on queue items
 * npcs able to move between maps
+* improve keyboard navigation for ui elements
+  * close popups and dialogue
+  * inventory window navigation
+  * prevent tool use while dialogue or message window is open
 
 ##### ISSUES
 
@@ -27,6 +31,16 @@
 * tooltip sometimes appears in middle of screen
 * crafting an item refreshes the inventory count for that item, but not all items
 * check keyboard navigation on inventory screens
+* some ui windows overlap when game is played in a small window: character creation text, grid info
+* watering can tool reach needs to be checked
+* in playtesting, some crops did not grow after being watered
+* shop inventory shelves should not be interactable
+* nilam is stuck behind fence
+* entrance plaza shipping bin difficult to find
+* player actor is present in ruth's house
+* npcs clip through things
+* entrance plaza fountain appears twice
+* creatures not spawning often enough
 
 ##### CONTENT
 

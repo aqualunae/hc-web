@@ -12,7 +12,6 @@ const DevLogsWindow = (props: { logs: Devlog[] }) => {
         const logsOnPage = props.logs.filter((item, index) => {
             return index >= page * 10 && index < page * 10 + 10;
         });
-        console.log(props);
         setLogs(logsOnPage);
     }, [ props, page ])
 

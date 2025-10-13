@@ -38,7 +38,7 @@ const Main = () => {
 
     return (
         <>
-            <Carousel images={ images } />
+            <Carousel inImages={ images } />
             <div className="row wide">
                 <div className="col half-wide">
                     <Links />

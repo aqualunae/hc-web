@@ -1,17 +1,20 @@
 import React, { useEffect, useState } from 'react'
 import type { Image } from '~/types/Image'
 
-const Carousel = ({ images }: { images: Image[] }) => {
+const Carousel = ({ inImages }: { inImages: Image[] }) => {
 
     const [ left, setLeft ] = useState(2);
     const [ center, setCenter ] = useState(0);
     const [ right, setRight ] = useState(1);
     const [ max, setMax ] = useState(2);
+    const [ images, setImages ] = useState<Image[]>([]);
 
     useEffect(() => {
-        setMax(images.length - 1)
-        setLeft(images.length - 1);
-    }, [ images ])
+        const sortedImages = inImages?.filter(image => image.id > -1).sort((a, b) => a.id - b.id);
+        setImages(sortedImages);
+        setMax(sortedImages.length - 1);
+        setLeft(sortedImages.length - 1);
+    }, [ inImages ])
 
     const clickLeft = () => {
         let nextLeft = left - 1;
@@ -47,8 +50,6 @@ const Carousel = ({ images }: { images: Image[] }) => {
         )
     }
 
-    console.log(left)
-
     return (
         <div id="carousel-outer" className="box">
             <div id="carousel">
@@ -61,6 +62,9 @@ const Carousel = ({ images }: { images: Image[] }) => {
                 <div id="carousel-right">
                     <img className="carousel-image" src={ `/img/${ images[right].filename }.png` } alt={ images[right].alt } />
                 </div>
+            </div>
+            <div id="image-description" className="box document half-wide">
+                { images[center].description }
             </div>
             <div id="carousel-nav">
                 <div id="carousel-nav-left">

@@ -1,72 +1,86 @@
 [
     {
-        "filename": "Hallowed_Crossing_upIpJGR9YN",
-        "id": 1,
-        "alt": "Two people stand in a field. There's a plot of crops growing, and some thorn-covered trees farther away. A bunny and a peacock hang out in the grass.",
-        "description": "The Rose Garden is the thorny ruins of a breath-taking greenhouse.",
-        "title": "Rose Garden"
-    },
-    {
-        "filename": "Screenshot 2025-04-11 134706",
-        "id": 2,
-        "alt": "A person stands on the beach on a rainy night. Monstera plants, palm trees, and barnacle-encrusted rocks are scattered around them.",
-        "description": "The Tropical Retreat was a summery paradise.",
-        "title": "Tropical Retreat"
-    },
-    {
-        "filename": "Unity_7EagBLSp7M",
-        "id": 3,
-        "alt": "A person stands in a desert oasis while an affectionate Pangaloelin reaches up towards them. Around them are cacti, brambleweeds, and sandstone outcrops.",
-        "description": "The Succulent Sanctuary is an arid landscape filled with cacti.",
-        "title": "Succulent Sanctuary"
-    },
-    {
-        "filename": "Unity_m9MWbHpfDG",
-        "id": 4,
-        "alt": "The player and Sparrow stand in front of a cozy cottage with poppy gardens. Sparrow says: There are a lot of useful plants growing in the forest, but it's dangerous, too.",
-        "description": "Sparrow, the witch's daughter, is a shy soul who could use a friend.",
-        "title": "Sparrow"
-    },
-    {
-        "filename": "Unity_9QE4alh77c",
-        "id": 5,
-        "alt": "The player and Petya stand in the street of the Town. Petya says: I've been doing a lot of research for my book today. I'd tell you all about it, but I don't want to bore you.",
-        "description": "Petya, a geeky aspiring author, is eager to get to know you.",
-        "title": "Petya"
-    },
-    {
-        "filename": "Unity_6fOZa85a42",
-        "id": 6,
-        "alt": "The player and Lazarus stand in a graveyard by a cliff. Lazarus says: Are you looking for trouble?",
-        "description": "Lazarus, a prickly lone wolf crashing on the edge of town, takes a while to warm up to new people.",
-        "title": "Lazarus"
-    },
-    {
         "filename": "Hallowed_Crossing_VHSe3GPfwZ",
-        "id": 7,
+        "id": -1,
         "alt": "The player stands in a room with black granite flooring and dark green walls, decorated sparsely with golden furniture.",
         "description": "Your grandfather's manse is an imposing space.",
         "title": "The Manse"
     },
     {
         "filename": "Screenshot 2025-04-11 095234",
-        "id": 8,
+        "id": -1,
         "alt": "The player stands in a cave, surrounded by dusty grey rocks. A muddy stream flows beside them.",
         "description": "Dig your way through the mines, finding ores and precious gemstones.",
         "title": "Mines"
     },
     {
         "filename": "Unity_opjze5PFi2",
-        "id": 9,
+        "id": -1,
         "alt": "The player stands in a forest, surrounded by lush bushes and flowering trees.",
         "description": "Navigate the fae forests and come home with material wood and other delights.",
         "title": "Forest"
     },
     {
         "filename": "Hallowed_Crossing_oGNDnoE8Hi",
-        "id": 10,
+        "id": -1,
         "alt": "The player stands in the street, between a general store with a gaudy sign and a quiet park.",
         "description": "Spend time in the Town, filled with locals and shops.",
         "title": "Town"
+    },
+    {
+        "filename": "Hallowed_Crossing_41M5CXGqVi",
+        "id": 5,
+        "alt": "Lazarus, a man with grey skin and black hair wearing a leather jacket, speaks to the player in a crumbling graveyard by the cliffside: Well, I'm not the boss of you. Come around any time you like.",
+        "description": "Lazarus, a prickly lone wolf crashing on the edge of town, takes a while to warm up to new people.",
+        "title": "Lazarus"
+    },
+    {
+        "filename": "Hallowed_Crossing_bZqfDyKUR2",
+        "id": 1,
+        "alt": "Sparrow, a woman with ochre skin and fluffy aqua hair wearing a pink cardigan, approaches the player in a forest full of yellow leaves and red flowers, saying: To break the misdirection spell, you'll have to find the magic circles.",
+        "description": "Sparrow, the witch's daughter, is a shy soul who could use a friend.",
+        "title": "Sparrow"
+    },
+    {
+        "filename": "Hallowed_Crossing_D3bvJbOhUD",
+        "id": 3,
+        "alt": "Petya, a man with long strawberry brown hair and fair skin wearing a periwinkle sweater, approaches the player in the autumn town of Hallowed Crossing, saying: Not just a Keymaster Reaper, responsible for one of the twelve Gates to the afterworld, but also a leading researcher in the field of magic and auras.",
+        "description": "Petya, a geeky aspiring author, is eager to get to know you.",
+        "title": "Petya"
+    },
+    {
+        "filename": "Hallowed_Crossing_DZW38Gi51k",
+        "id": 2,
+        "alt": "The player stands in a field with several types of crops growing. The Grid Info popup labels the plant they're facing as tea. The land around the field is covered in green grass and surrounded by thick thorny vines.",
+        "description": "The Rose Garden is the thorny ruins of a breath-taking greenhouse.",
+        "title": "Rose Garden"
+    },
+    {
+        "filename": "Hallowed_Crossing_fHQvepAMCv",
+        "id": 4,
+        "alt": "The crafting menu displays recipes for several other crafting stations, including a Drying Rack, a Cauldron, and a Jarring Station. One dark unlearned recipe is labelled Kitchenette.",
+        "description": "Craft everything you need: from tools to work the land, to food with a wide variety of effects, to furniture to make the space your own.",
+        "title": "Crafting"
+    },
+    {
+        "filename": "Hallowed_Crossing_FuEKhyWDEV",
+        "id": 6,
+        "alt": "The player waters a growing mango plant, one of several crops planted in the field. Surrounding the field are palm trees and monstera bushes.",
+        "description": "The Tropical Retreat is a summery paradise.",
+        "title": "Tropical Retreat"
+    },
+    {
+        "filename": "Hallowed_Crossing_HCEVGytTWl",
+        "id": 8,
+        "alt": "The player inspects a prickly pear plant in a field surrounded by tumbleweeds and cacti.",
+        "description": "The Succulent Sanctuary is an arid landscape filled with cacti.",
+        "title": "Succulent Sanctuary"
+    },
+    {
+        "filename": "Hallowed_Crossing_nnyYWvxEiz",
+        "id": 7,
+        "alt": "In a map dotted with maple trees and surrounded by brambles, Viryn says to the player: So it's true then. He's gone.",
+        "description": "Your grandfather's butler, Viryn, is hesitant to let you in.",
+        "title": "Viryn"
     }
 ]

@@ -1058,5 +1058,38 @@
         "features": [
             "Website updated to include links, summary, devlogs"
         ]
+    },
+    {
+        "date": "October 8, 2025",
+        "content": [
+            "Furniture: Rosethorn Curio Shelf"
+        ]
+    },
+    {
+        "date": "October 10, 2025",
+        "content": [
+            "UI click recordings"
+        ]
+    },
+    {
+        "date": "October 11, 2025",
+        "content": [
+            "Updated UI window frame",
+            "Sound research and development"
+        ]
+    },
+    {
+        "date": "October 12, 2025",
+        "content": [
+            "Sound research and development"
+        ]
+    },
+    {
+        "date": "October 13, 2025",
+        "content": [
+            "Discord server created",
+            "Itchio page created",
+            "New screencaps"
+        ]
     }
 ]
