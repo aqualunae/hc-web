@@ -1,0 +1,35 @@
+name: Node.js CI
+
+on:
+    push:
+      branches:
+        - main
+    workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: check secrets
+      env:
+        username: ${{ secrets.USERNAME }}
+      if: ${{ env.username == '' }}
+      run: 'echo "no username"'
+
+    - name: Deploy using ssh
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        debug: true
+        script: |
+          cd  /home/aquaqua/hc/hc-web
+          git pull origin main
+          git status
+          npm install
+          npm run build
