@@ -31,5 +31,6 @@ jobs:
           cd  /home/aquaqua/hc/hc-web
           git pull origin main
           git status
+          source /opt/nvm/nvm.sh
           npm install
           npm run build
