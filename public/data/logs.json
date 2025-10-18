@@ -1089,7 +1089,36 @@
         "content": [
             "Discord server created",
             "Itchio page created",
-            "New screencaps"
+            "New screencaps and alt text",
+            "Website image carousel updated to include descriptions"
+        ]
+    },
+    {
+        "date": "October 14, 2025",
+        "content": [
+            "Website uploaded to server"
+        ]
+    },
+    {
+        "date": "October 15, 2025",
+        "content": [
+            "Fish: Tropical Retreat",
+            "Sound research and development"
+        ]
+    },
+    {
+        "date": "October 16, 2025",
+        "content": [
+            "Fish: Succulent Sanctuary"
+        ],
+        "issues": [
+            "grid info appearing in center of screen instead of top left"
+        ]
+    },
+    {
+        "date": "October 18, 2025",
+        "content": [
+            "Fish: Town, Volcanic Vents"
         ]
     }
 ]

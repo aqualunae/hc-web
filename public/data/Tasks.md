@@ -42,6 +42,7 @@
 * color mask shader should be affected by lighting
 * forageables
 * more animations in the world
+* explorable zone clutter
 
 ##### SOCIAL
 
@@ -101,6 +102,7 @@
 * crystal walls
 * fungal surface
 * separate water (bordered tiles) from waves (animated tiles)
+* bigger thicket tiles
 
 ##### FURNITURE
 
@@ -109,8 +111,6 @@
 * barbeque
 * sports net
 * garbage bin
-* alchemagical desk
-* dying station
 * large table
 * fireplace
 * indoor windows
@@ -125,6 +125,15 @@
 * potions
 * tree seeds
 * food and consumables
+
+###### Crafting Stations
+
+* alchemagical desk
+* modification station
+* sewing machine
+* seed extractor
+* oven?
+* forge?
 
 ##### MAPS
 
