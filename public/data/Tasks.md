@@ -58,12 +58,13 @@
 * creature limiter to be connected to progression system
 * validation method on progress checker for updating old save data
 * hover item to see if an altar or collection needs it
+* character bedrooms to be barred off until a certain friendship level?
+* quests panel in pauze menu
 
 ##### USER INTERFACE
 
 * forest: swirling haze screen border until circle is found
 * grid selection sprite: corners only
-* ui element border: more ornate corners, more plain middles
 * default font does not include characters with accents
 * ban some special characters from player and creature names
 * altar window too small
@@ -77,6 +78,7 @@
 * tool sounds
 * ui sounds
 * music to fade in and out
+* bus sound effects when player arrives in town
 
 ##### ISSUES
 
@@ -85,17 +87,19 @@
 * sometimes cannot put floor furniture in proximity to each other
 * tabletop items sometimes appear behind tables
 * furniture pickup sometimes picks up multiple pieces
+* garbage collection causing cpu spikes
 
 #### CONTENT
 
 ##### CHARACTERS
 
 * improve animations
-* new animations: petting / interaction, fishing
+* new animations: petting / interaction, fishing, blinking
 * talk sprites: sundeep, lyra, fang, eirwyn, puppeteer, vincent, tiffany, haiyan
 * talk sprite emotions: josephine, nilam, mayumi, rick, ruth
 * walk sprites: vincent, tiffany, haiyan
 * special walk sprites: puppeteer, eirwyn
+* creature run away animation
 
 ##### TILESETS
 
@@ -138,3 +142,6 @@
 ##### MAPS
 
 * bedrooms: chanda/sundeep, rick, mayumi, ruth
+* active church: main room, priest's room, haiyan's room
+* abandoned church: main room (connected to mines breakpoints)
+* equivalent forest skip? josephine's basement? magic circles?

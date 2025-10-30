@@ -6,6 +6,7 @@
   * allow npcs (but not creatures) to cross rocks and weeds
   * npcs need to collide with furniture instead of ghosting through it
 * npcs able to move between maps
+* basic tutorials as pop-ups
 
 ## AUDIO
 
@@ -28,26 +29,27 @@
 
 * crops planted while soil is already wet don't get watered
 * no tile for wet soil opposite corners
-* rose garden south should not lead to town
 * watering can tool reach needs to be checked
-* shop inventory shelves should not be interactable
-* entrance plaza shipping bin difficult to find
+* journal entry about divine crops somewhere
+* divine crops for mushroom forest
 
 ### Creatures and Characters
 
 * creature animations jitter when chasing player
 * creatures not spawning often enough
-* player actor is present in ruth's house
+* unity version update broke character bodydata associations
 
 ### User Interface
 
 * backspace in the name field closes the window
 * enter at end of dialogue or message should close the window (focus X)
-* tooltip sometimes appears in middle of screen
-* check keyboard navigation on inventory screens
 * some ui windows overlap when game is played in a small window: character creation text, grid info
 * prevent tool use while dialogue or message window is open
 * crafting an item refreshes the inventory count for that item, but not all items
+* controls remapping tabs aren't selectable
+* keyboard navigation on inventory screens
+  * implement for screens with multiple inventories
+  * integrate flow with ui navigation for buttons
 
 #### New UI Features
 
@@ -64,7 +66,6 @@
   * may be connected to destructibles spawning
   * could be connected to the crop changing sprites
 * blade-apple crumble altar starts fulfilled
-* crafting infinite queue
 
 ## CONTENT
 
@@ -77,8 +78,8 @@
 * talk sprites: lyra, fang, sundeep
 * talk emotes: josephine, nilam, mayumi, rick, ruth
 * more quotes
-* forest: swirling haze screen border until circle is found
 * icons on grid info: crop fertilizer and water, animal pet
+* cutscene: chanda's caution
 
 ### ADD TO CC
 

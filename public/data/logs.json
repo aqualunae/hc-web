@@ -1120,5 +1120,75 @@
         "content": [
             "Fish: Town, Volcanic Vents"
         ]
+    },
+    {
+        "date": "October 19, 2025",
+        "content": [
+            "Fish: Forest"
+        ],
+        "features": [
+            "Water motion",
+            "Unity version update"
+        ]
+    },
+    {
+        "date": "October 20, 2025",
+        "content": [
+            "Crops: Tomato, Red Spinach"
+        ]
+    },
+    {
+        "date": "October 21, 2025",
+        "features": [
+            "Keyboard navigation on single-inventory screens"
+        ],
+        "issues": [
+            "player can move while game is pauzed"
+        ]
+    },
+    {
+        "date": "October 22, 2025",
+        "content": [
+            "Crops: Silversword, Volcanic Oca, Blueberry",
+            "Items: Feather Moss, Charcoal, Cinder, Obsidian, Lava"
+        ]
+    },
+    {
+        "date": "October 23, 2025",
+        "content": [
+            "Map: Molten Crater"
+        ],
+        "features": [
+            "Haze border on explorable maps"
+        ]
+    },
+    {
+        "date": "October 25, 2025",
+        "content": [
+            "Separate water and waves in multiple colors",
+            "Walk sprite blinking frames",
+            "Beginning to adjust character animations"
+        ]
+    },
+    {
+        "date": "October 27, 2025",
+        "issues": [
+            "entrance plaza shipping bin difficult to find",
+            "rose garden south leads to town",
+            "player actor is present in ruth's house",
+            "shop inventory shelves interactable. they should not be"
+        ],
+        "content": [
+            "shipping bin and altar placement for molten crater"
+        ],
+        "features": [
+            "Grid Info for doors"
+        ]
+    },
+    {
+        "date": "October 28, 2025",
+        "content": [
+            "Updating character animations"
+        ]
     }
 ]
